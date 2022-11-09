@@ -1,0 +1,82 @@
+#title
+{
+    
+    background: linear-gradient(to bottom, #bdc3c7 0%, #2c3e50 100%);
+    color: white;
+    padding-bottom: 3%;
+}
+
+h1
+{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    
+    
+    
+
+}
+
+
+
+.container-fluid
+{
+    padding-top: 0;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+#nav2
+{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 0;
+    background-color: white;
+}
+#nav1
+{
+    padding: 0 0 0 0;
+}
+.navbar
+{
+    padding: 0 0 0rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.download-button
+{
+    margin: 5% 3% 5% 0%;
+    font-family: 'Montserrat';
+}
+#features
+{
+    padding: 7% 15%;
+    background-color:antiquewhite;
+}
+
+h3
+{
+    font-weight: 900;
+}
+
+
+.feat
+{
+    font-family: 'Montserrat';
+    font-weight:500;
+    padding-left: 20px;
+
+
+}
