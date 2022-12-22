@@ -1,0 +1,363 @@
+#title
+{
+    
+    background: linear-gradient(to bottom, #141e30 30%, #243b55 70%);
+    color: white;
+    padding-bottom: 3%;
+}
+
+#title-pic
+{
+    position:relative;
+}
+
+h1
+{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    
+    
+    
+
+}
+
+
+
+.container-fluid
+{
+    padding-top: 0;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+#nav2
+{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 0;
+    background-color: white;
+}
+#nav1
+{
+    padding: 0 0 0 0;
+    background-color:black;
+    height: 3.25rem;
+}
+.navbar
+{
+    padding: 0 0 0rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.download-button
+{
+    margin: 5% 3% 5% 0%;
+    font-family: 'Montserrat';
+}
+#features
+{
+    padding: 5% 15%;
+    background-color:antiquewhite;
+}
+
+h3
+{
+    font-weight: 900;
+}
+
+
+.feat
+{
+    font-family: 'Montserrat';
+    font-weight:500;
+    padding-left: 20px;
+
+
+}
+
+#testimonials
+{
+    padding: 7% 15%;
+    font-family: 'Montserrat';
+    background: linear-gradient(to bottom, #141e30 40%, #243b55 60%);
+    
+
+}
+
+#pricing
+{
+    background-color: antiquewhite;
+    padding: 5% 25%;
+}
+.card
+{
+    height: 25rem;
+    width: 14rem;
+}
+.card-header
+{
+    background-color: #bdc3c7;
+    
+}
+.card-body
+{
+    padding: 0 0 0 0;
+}
+#styles
+{
+    margin-left: 3rem;
+    
+
+}
+
+#cpic
+{
+    
+    
+    height: 140px;
+    width: 100%;
+}
+
+#causpic
+{
+    height: 30rem; width:60rem; padding-left: 10%
+}
+
+#Demo
+{
+    padding: 7% 10%;
+    background: linear-gradient(to bottom, #141e30 40%, #243b55 60%);
+    color: white;
+}
+
+.col-demo
+{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+#demopic
+{
+    height: 350px;
+    width: 100%;
+}
+
+#space
+{
+    padding-right:1rem ;
+    
+    color: darkgray;
+}
+
+#pre-footer
+{
+    background-color: whitesmoke;
+    padding: 5% 10%;
+    font-family: 'Roboto Condensed';
+    font-size: 1rem;
+}
+
+#space1
+{
+    color:darkgray;
+    padding-right:1rem ;
+}
+
+#space1:hover
+{
+    color: orange;
+    text-decoration: none;
+}
+
+#space:hover
+{
+     color: orange;
+     text-decoration: none;
+}
+
+#footer
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: black;
+
+}
+#fif
+{
+    padding-bottom:1rem;
+     font-size:1.25rem;
+}
+#pref
+{
+    padding-left:85%; 
+    padding-bottom:1rem;
+}
+#footpic
+{
+    padding-left:87.5%; 
+    padding-top:1rem;
+    height: 110px;
+}
+
+
+#pf
+{
+    padding-left: 25.5rem;
+     padding-right: 2rem;
+     color: yellowgreen;
+}
+
+.socials:hover
+{
+    color: orange;
+}
+
+.socials
+{
+    padding-left: 1rem;
+}
+
+.social-media
+{
+    text-align: right;
+}
+
+
+
+
+#footer
+{
+    color: white;
+}
+
+@media (max-width: 1028px) 
+{
+    .container-fluid
+    {
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #title-pic
+    {
+
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+
+
+    #features
+    {
+        text-align: center;
+    }
+
+    
+
+    #featpic
+    {
+        width: 90%;
+        height: 50%;
+        
+    }
+
+    #featpic2
+    {
+        height: 45%;
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    #causpic
+    {
+
+        height: 100%;
+        width: 100%;
+        padding-right: 4rem;
+        padding-left: 4rem;
+
+    }
+    .card
+    {
+        margin-bottom: 3rem;
+        margin-left: 9rem;
+
+    }
+
+    .col-demo
+    {
+
+        text-align: center;
+
+    }
+
+    #demopic
+    {
+        height: 100%;
+        width:100%;
+        padding-left: 1rem;
+    }
+
+
+
+    #pref
+    {
+        
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+    }
+
+    
+
+    #pf
+    {
+        padding-left: 0;
+        padding-right: 2rem;
+    }
+
+    #footpic
+    {
+        padding-top: 1rem;
+        padding-left: 0%;
+    }
+
+
+    #space1
+    {
+        padding-right: 507px;
+        text-align: left;
+    }
+
+    #space
+    {
+        padding-right: 120px;
+    }
+
+    .social-media
+    {
+        text-align: left;
+        padding-left: 0;
+    }
+
+
+
+    
+}
+
+
+
