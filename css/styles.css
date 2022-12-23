@@ -65,7 +65,7 @@ h1
 .download-button
 {
     margin: 5% 3% 5% 0%;
-    font-family: 'Montserrat';
+    font-family: 'Roboto Condensed';
 }
 #features
 {
@@ -118,7 +118,7 @@ h3
 }
 #styles
 {
-    margin-left: 3rem;
+    margin-left: 3.8rem;
     
 
 }
@@ -245,11 +245,21 @@ h3
 
 @media (max-width: 1028px) 
 {
+    
     .container-fluid
     {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
         text-align: center;
-        padding-left: 20%;
-        padding-right: 20%;
+    
+        
+    }
+
+    .title-col
+    {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        transform: scale(1.37);
     }
 
     #title-pic
@@ -261,27 +271,56 @@ h3
         
     }
 
+    #h1-feat
+    {
+        font-size: 7rem;
+    }
 
     #features
     {
+        
         text-align: center;
     }
 
-    
-
-    #featpic
+    .feature-box
     {
-        width: 90%;
-        height: 50%;
+        padding-top: 10rem;
+        padding-bottom: 13rem;
+        transform: scale(1.37);
+        font-size: 1.7rem;
+
+    }
+
+    #feat-h3
+    {
+        font-size: 3rem;
+    }
+
+    #style
+    {
+        font-size: 2rem;
+    }
+
+    #testimonials
+    {
+        height: 55rem;
+    }
+
+    #h1-test
+    {
+        font-size: 6rem;
+    }
+
+   
+    #carouselExampleIndicators
+    {
+        transform: scale(1.4);
+        padding-top: 5rem;
+    
         
     }
 
-    #featpic2
-    {
-        height: 45%;
-        width: 90%;
-        margin-left: 1rem;
-    }
+    
 
     #causpic
     {
@@ -292,18 +331,41 @@ h3
         padding-left: 4rem;
 
     }
+
+    #pricing-h1
+    {
+        font-size: 6rem;
+    }
+
+
+
     .card
     {
-        margin-bottom: 3rem;
-        margin-left: 9rem;
+        margin-top: 15rem;
+        margin-left: 8rem;
+        margin-bottom: 20rem;
+    
+
+
+        transform: scale(2.2);
 
     }
+    
 
     .col-demo
     {
 
         text-align: center;
+        transform: scale(1.2);
+        padding-left: 5%;
+        padding-bottom: 2rem;
+        font-size: 6rem;
 
+    }
+
+    .demo-btn
+    {
+        font-size: 2rem;
     }
 
     #demopic
@@ -313,14 +375,21 @@ h3
         padding-left: 1rem;
     }
 
+    #fif
+    {
+        font-size: 3rem;
+    }
+
 
 
     #pref
     {
-        
+        font-size: 3rem;
         padding-top: 2.5rem;
         padding-left: 1rem;
     }
+
+    
 
     
 
@@ -330,22 +399,47 @@ h3
         padding-right: 2rem;
     }
 
+    #pre-footer
+    {
+        height: 50rem;
+    }
+
+    #hr
+    {
+        margin-bottom: 3.5rem;
+    }
+
+    #foot-logo
+    {
+        transform: scale(1.9);
+        padding-left: 1.5rem;
+    
+    }
+
     #footpic
     {
-        padding-top: 1rem;
-        padding-left: 0%;
+        transform: scale(1.9);
+        padding-left: 10%;
     }
 
 
     #space1
     {
-        padding-right: 507px;
+        font-size: 2.5rem;
+        padding-right: 191px;
         text-align: left;
     }
 
     #space
     {
-        padding-right: 120px;
+        font-size: 2.5rem;
+        padding-right: 213px;
+    }
+
+    .socials
+    {
+        padding-right: 1rem;
+        transform: scale(2);
     }
 
     .social-media
